@@ -1,0 +1,10 @@
+#Server port
+server.port = 8888
+
+spring.application.name=configserver
+ 
+#Git repo location.
+spring.cloud.config.server.git.uri=file:G:/properties/test_remote_properties
+ 
+#Disable security of the Management endpoint
+management.security.enabled=false
